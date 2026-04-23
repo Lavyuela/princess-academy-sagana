@@ -221,8 +221,14 @@ form.form { background: #fff; border: 1px solid var(--border); border-radius: va
 .footer-bottom { border-top: 1px solid #2a2346; padding: 18px 0; font-size: .85rem; color: #8a83a1; }
 
 /* Highlight cards (Academics pillars) */
-.highlight-card { text-align: center; padding: 28px 22px; border-top: 4px solid var(--primary); align-items: center; }
-.highlight-card .icon { font-size: 1.8rem; margin-bottom: 12px; width: 56px; height: 56px; background: var(--bg-alt); border-radius: 14px; display: grid; place-items: center; }
+.highlight-card { text-align: center; padding: 22px 18px; border-top: 4px solid var(--primary); align-items: center; }
+.highlight-card .icon { font-size: 1.6rem; margin-bottom: 10px; width: 52px; height: 52px; background: #fff; border-radius: 14px; display: grid; place-items: center; box-shadow: var(--shadow); }
+.highlight-card h3 { font-size: 1.05rem; margin-bottom: .2em; }
+.highlight-card p { font-size: .9rem; color: var(--muted); }
+
+/* Academics section: tighter layout */
+#academics { padding: 48px 0; }
+.academics-grid { gap: 16px; max-width: 960px; margin: 0 auto; }
 .highlight-card:nth-child(2) { border-top-color: var(--accent); }
 .highlight-card:nth-child(3) { border-top-color: #06d6a0; }
 
